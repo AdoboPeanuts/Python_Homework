@@ -6,17 +6,17 @@
 
 2. Analyze data set and calculate:
 
-    a. Total number of months included in the dataset.
+    Total number of months included in the dataset.
 
-    b. The net total amount of Profit/Losses over the entire period.
+    Net total amount of Profit/Losses over the entire period.
 
-    c. The average of the changes in Profit/Losses over the entire period.
+    Average of the changes in Profit/Losses over the entire period.
 
-    d. The greatest increase in pofits (date and amount) over the entire period.
+    Greatest increase in pofits (date and amount) over the entire period.
 
-    f. The greatest decrease in losses (date and amount) over the entire period.
+    Greatest decrease in losses (date and amount) over the entire period.
 
-The resulting analysis should look similar to the following:
+Resulting analysis should look similar to the following:
 
 Financial Analysis
 ----------------------------
