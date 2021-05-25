@@ -23,7 +23,7 @@
 
 3. Set up the same process to read in sales_data.csv. Append every row of the sales data to a new sales list object.
 
-4. Manipulate Date
+4. Manipulate Data
 
 	Complete the following:
 
@@ -43,10 +43,10 @@
 	04-profit: the total profit for each ramen type
 
 
-Loop through every row in the sales list object.
+5. Loop through every row in the sales list object.
 
 
-For each row of the sales data, set the following columns of the sales data to their own variables:
+6. For each row of the sales data, set the following columns of the sales data to their own variables:
 
 	Quantity
 
@@ -54,7 +54,7 @@ For each row of the sales data, set the following columns of the sales data to t
 
 
 
-Perform a quick check if the sales_item is already included in the report. If not, initialize the key-value pairs for the particular sales_item in the report. Then, set the sales_item as a new key to the report dictionary and the values as a nested dictionary containing the following:
+7 Perform a quick check if the sales_item is already included in the report. If not, initialize the key-value pairs for the particular sales_item in the report. Then, set the sales_item as a new key to the report dictionary and the values as a nested dictionary containing the following:
 {
 "01-count": 0,
 "02-revenue": 0,
@@ -65,10 +65,10 @@ Perform a quick check if the sales_item is already included in the report. If no
 
 
 
-Create a nested loop by looping through every record in menu.
+8. Create a nested loop by looping through every record in menu.
 
 
-For each row of the menu data, set the following columns of the menu data to their own variables:
+9. For each row of the menu data, set the following columns of the menu data to their own variables:
 
 Item
 
@@ -77,7 +77,7 @@ Price
 Cost
 
 
-If the sales_item in sales is equal to the item in menu, capture the quantity from the sales data and the price and cost from the menu data to calculate the profit for each item.
+10. If the sales_item in sales is equal to the item in menu, capture the quantity from the sales data and the price and cost from the menu data to calculate the profit for each item.
 
 Cumulatively add the values to the corresponding metrics in the report like so:
 report[sales_item]["01-count"] += quantity
@@ -87,7 +87,8 @@ report[sales_item]["04-profit"] += profit * quantity
 
 Else print the message "{sales_item} does not equal {item}! NO MATCH!".
 
-5. Write out the contents of the report dictionary to a text file. The report should output each ramen type as the keys and 01-count, 02-revenue, 03-cogs, and 04-profit metrics as the values for every ramen type as shown:
+11. Write out the contents of the report dictionary to a text file. The report should output each ramen type as the keys and 01-count, 02-revenue, 03-cogs, and 04-profit metrics as the values for every ramen type as shown:
+
 
 Resulting manipulation should look similar to the following:
 
