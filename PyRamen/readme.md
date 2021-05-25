@@ -105,6 +105,6 @@ burnt garlic tonkotsu ramen {'01-count': 9070, '02-revenue': 126980.0, '03-cogs'
 vegetarian curry + king trumpet mushroom ramen {'01-count': 8824, '02-revenue': 114712.0, '03-cogs': 61768.0, '04-profit': 52944.0}
 
 
-3. Export main.ipynb to PyRamen folder.
+12. Export main.ipynb to PyRamen folder.
 
 ```
